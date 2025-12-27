@@ -6,7 +6,7 @@ You can find our ICRA publication on IEEE [here](https://ieeexplore.ieee.org/doc
 
 For mapping a 3D environment, the following existing work reduce the map size while incurring a large memory overhead used for storing sensor measurements and temporary variables during computation.
 1. [Hierarchical EM](https://jankautz.com/publications/AccGenMod_CVPR16.pdf) (H-EM)
-2. [Normal Distance Transform](https://journals.sagepub.com/doi/abs/10.1177/0278364913499415) (NDT)
+2. [Normal Distribution Transform](https://journals.sagepub.com/doi/abs/10.1177/0278364913499415) (NDT)
 3. [Region Growing](http://www.roboticsproceedings.org/rss16/p073.pdf) (RG)
 
 In the following figure, we compare SPGF against existing works by visualizing the GMMs (blue ellipsoids) constructed from a depth image of a hallway from the TartanAir Office dataset. Compared with existing works (a, b, c), SPGF (d) generates a more accurate GMM representation, requires significantly less memory overhead, executes in real time (i.e., >30fps), and consumes much less energy using an ARM Cortex-A57 CPU on the NVIDIA Jetson TX2.
